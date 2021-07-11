@@ -1,9 +1,9 @@
 # Haskell
 Wellcome,
-This repository has some codes written in Haskell.
+this repository has some codes written in Haskell.
 
-Currently, I'm studying Haskell and you can visualize the projects I have been doing here.
+Currently, I'm studying Haskell and you can visualize here the projects I have been doing.
 
-Sites where I have learned Haskell and you might can find out more about Haskell languague:
+You can find out more content about Haskell at the sites below
 https://www.futurelearn.com/courses/functional-programming-haskell
 http://learnyouahaskell.com/chapters
