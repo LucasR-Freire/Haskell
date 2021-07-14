@@ -1,0 +1,19 @@
+# Spelling Book Generetor
+
+f :: [Char] -> [Char]
+f [] = []
+f xs =   [xs!!0] ++ " is for " ++ xs
+
+speller :: [[Char]]-> [Char]
+speller [] =[]
+speller xs1
+    | length xs1 == 1 = f (head xs1)
+    | otherwise = let
+        xs2 = map ((\ a -> a ++ ", ") . (f)) xs1
+        xl =  "and " ++ f (last xs1)
+        xs3 = init xs2 ++ [xl]
+        in
+        foldr (++) "" xs3
+  
+  
+main = print (speller ["grape","mango","melon"])
